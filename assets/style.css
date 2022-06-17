@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 15px;
+}
+ 
+body {
+    background-color: #fffdf8;
+    font-weight: 500;
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    max-width: 100%;
+    height: 49px;
+    background-color: #000000;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+nav ul li:hover {
+    background-color: #ccc;
+    color: #000000;
+}
+
+nav li {
+    line-height: 34px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.header-background {
+    margin-top: 49px;
+    width: 100%;
+    height: 1020px;
+    background-image: url(./img/background/coffeehouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(50%);
+}
+
+.header-background .text-heading {
+    position: absolute;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 400;
+    top: 36%;
+    left: 45%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.header-background .text-add {
+    position: absolute;
+    background-color: #000000;
+    padding: 3px 5px;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+}
+
+.header-background .text-time {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: #fff;
+
+}
+
+.content-section {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.content-section h2 {
+    margin: 75px 0px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 580;
+}
+
+.content-section h2 span {
+    display: inline-block;
+    background-color: #000000;
+    padding: 2px 6px;
+}
+
+.content-section p {
+    line-height: 1.5;
+}
+
+.content-section .text-excerpts {
+    background-color: #f1f1f1;
+    border-left: 6px solid #ccc;
+    padding: 15px 10px;
+}
+
+.content-section .text-excerpts span {
+    font-style: italic;
+}
+
+.about img{
+    filter: grayscale(50%);
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.about p {
+    margin: 17px 0;
+}
+
+.about p span {
+    font-weight: bold;
+}
+
+.menu {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu .menu-type {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 7px 10px;
+    display: flex;
+}
+
+.menu .menu-type div {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu div ul{
+    list-style-type: none;
+    padding: 35px 20px 20px;
+}
+
+.menu div ul li:nth-child(odd) {
+    margin: 25px 0px;
+}
+
+.menu div ul li:nth-child(even) {
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.menu .menu-type div:first-child {
+    background-color: #616161;
+    color: #fff;
+}
+
+
+.menu-drink-list {
+    display: none;
+}
+
+.menu-section img {
+    filter: grayscale(50%);
+    max-width: 100%;
+    margin-top: 35px;
+}
+
+.location {
+    margin-bottom: 60px;
+}
+
+.location img {
+    filter: grayscale(50%);
+    max-width: 100%;
+    margin: 20px 0px;
+}
+
+.location p:nth-child(4) span {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 2px 6px;
+}
+
+.location p:last-child span {
+    font-weight: bold;
+}
+
+.location .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.location .form input {
+    font-size: 15px;
+    padding: 17px 7px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+}
+
+.location .form button {
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 0;
+    margin-top: 4px;
+    width: 20%;
+    border: none;
+}
+
+.location .form button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 50px 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer a {
+    color: #000;
+}

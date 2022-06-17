@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#where">Where</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-background">
+            <div class="text-heading">
+                <span>the</span>
+                <br>
+                <span>Cafe</span>
+            </div>
+
+            <div class="text-add">
+                Open from 6am to 5pm
+            </div>
+
+            <div class="text-time">
+                15 Adr street, 5015
+            </div>
+        </div>
+    </header>
+
+    <div class="content-section">
+        <div id="about" class="about">
+            <h2>
+                <span>About the cafe</span>
+            </h2>
+            <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch
+                sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+            <p class="text-excerpts">
+                <span>
+                    "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new
+                    sweet.
+                </span>
+                <br>
+                <br>
+                Chef, Coffeeist and Owner: Liam Brown
+            </p>
+
+            <img src="./assets/img/about/coffeeshop.jpg" alt="">
+
+            <p><span>Opening hourse: </span>everyday from 6am to 5pm.</p>
+            <p><span>Address: </span>15 Adr street, 5015, NY</p>
+        </div>
+
+        <div class="menu-section">
+            <h2><span>The menu</span></h2>
+
+            <div class="menu">
+                <div class="menu-type">
+                    <div onclick="showEat(this)">Eat</div>
+                    <div onclick="showDrink(this)">Drink</div>
+                </div>
+    
+                <div  class="menu-eat-list">
+                    <ul>
+                        <li>Bread Basket</li>
+                        <li>Assortment of fresh baked fruit breads and muffins 5.50</li>
+                        <li>Honey Almond Granola with Fruits</li>
+                        <li>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</li>
+                        <li>Belgian Waffle</li>
+                        <li>Vanilla flavored batter with malted flour 7.50 </li>
+                        <li>Scrambled eggs </li>
+                        <li>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50 </li>
+                        <li>Blueberry Pancakes</li>
+                        <li>With syrup, butter and lots of berries 8.50 </li>
+                    </ul>
+                </div>
+    
+                <div  class="menu-drink-list">
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Regular coffee 2.50</li>
+                        <li>Chocolato</li>
+                        <li>Chocolate espresso with milk 4.50</li>
+                        <li>Corretto</li>
+                        <li>Whiskey and coffee 5.00</li>
+                        <li>Iced Tea</li>
+                        <li>Hot tea, except not hot 3.00</li>
+                        <li>Soda</li>
+                        <li>Coke, Sprite, Fanta, etc. 2.50</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div>
+                <img src="./assets/img/menu/coffeehouse2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="location">
+            <h2><span>WHERE TO FIND US</span></h2>
+
+            <p>Find us aat some address at some place.</p>
+            <img src="./assets/img/map.jpg" alt="">
+
+            <p><span>FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+            <br>
+            <p><span>Reserve</span> a table, ask for today's special or just send us a message:</p>
+            
+            <form class="form">
+                <input placeholder="Name" type="text" required>
+                <input placeholder="How many people" type="number" required>
+                <input type="datetime-local" value="2020-11-16T20:00" required>
+                <input placeholder="Message \ Special requirements" type="text">
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        Powered by <a href="#">Hai Hoang</a>
+    </div>
+
+<script src="./assets/mycode.js"></script>
+</body>
+
+</html>
